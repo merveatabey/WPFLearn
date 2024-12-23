@@ -1,0 +1,18 @@
+﻿<Window x:Class="Deneme.DataBinding.DataBindingOrnek"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deneme.DataBinding"
+        mc:Ignorable="d"
+        Title="DataBindingOrnek" Height="450" Width="800">
+    <!--<StackPanel>
+        <TextBox Text="{Binding MyText}" Width="200"/>
+        <TextBlock Text="{Binding MyText}" FontSize="16" Margin="10"/>
+    </StackPanel>-->
+
+    <StackPanel>
+        <Slider Value="{Binding SliderValue, Mode=TwoWay}" Minimum="0" Maximum="100" Width="200" Margin="10"/>
+        <TextBlock Width="200" FontSize="16" Margin="10" Text="{Binding SliderValue}"/>
+    </StackPanel>
+</Window>

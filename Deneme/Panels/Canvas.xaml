@@ -1,0 +1,16 @@
+﻿<Window x:Class="Deneme.Canvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deneme"
+        mc:Ignorable="d"
+        Title="Canvas" Height="450" Width="800">
+    <Grid>
+        <Canvas Background="AntiqueWhite">
+            <Rectangle Canvas.Left="35" Canvas.Top="80" Height="200" Width="200" Stroke="Coral" StrokeThickness="4" Fill="Pink"></Rectangle>
+            <Rectangle Canvas.Left="160" Canvas.Top="60" Height="200" Width="200" Stroke="Coral" StrokeThickness="4" Fill="Brown" Panel.ZIndex="1"></Rectangle>
+            <Rectangle Canvas.Left="270" Canvas.Top="40" Height="200" Width="200" Stroke="Coral" StrokeThickness="4" Fill="MediumSeaGreen"></Rectangle>
+        </Canvas>
+    </Grid>
+</Window>
